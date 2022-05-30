@@ -16,22 +16,35 @@ h2{
 body{
     background-color: rgb(13, 255, 0);
 }
+img{
+    max-width: 350px;
+    align-items: center;
+    margin: 20px auto;
+}
 /* id */
+
 #logo{
     width: 100%;
     max-width: 350px;
     justify-content: center;
 }
 #contact{
-  text-align: center;
-  font-size: 1.2em;
-  border: 1px black double;
-  border-radius: 60px;
-  padding: 10px;
-  margin: 20px;
-  background: lightslategray;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px black double;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 20px;
+    background: lightslategray;
 }
 #geekfest{
     width: 600px;
 }
 /* classe */
+.carousel-control {
+  margin: 20px auto;
+}
+.navbar-nav{
+    align-items: center;
+    
+}
