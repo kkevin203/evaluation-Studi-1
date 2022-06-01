@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -12,6 +13,13 @@ header,h1,h2{
 h2{
     align-content: center;
     margin: 10px;
+}
+h3{
+    background: lightgray;
+    text-align: center;
+}
+h4{
+    background: lightseagreen;
 }
 body{
     background-color: rgb(13, 255, 0);
@@ -41,10 +49,7 @@ img{
     width: 600px;
 }
 /* classe */
-.carousel-control {
-  margin: 20px auto;
-}
+
 .navbar-nav{
-    align-items: center;
-    
+    text-align: center;
 }
