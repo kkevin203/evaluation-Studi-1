@@ -1,62 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  align-items: center;
+  background: lightgray;
+}
+header,
+h1,
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  align-content: center;
+  margin: 10px;
+}
+h3 {
+  background: lightgray;
+  text-align: center;
+}
+h4 {
+  background: lightseagreen;
+}
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
 
-*{
-    box-sizing: border-box;
-}
-header{
-    align-items: center;
-    background: lightgray;
-}
-header,h1,h2{
-    padding: 10px;
-    text-align: center;
-    
-}
-h2{
-    align-content: center;
-    margin: 10px;
-}
-h3{
-    background: lightgray;
-    text-align: center;
-}
-h4{
-    background: lightseagreen;
-}
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-}
-
-img{
-    max-width: 350px;
-    align-items: center;
-    margin: 20px auto;
+img {
+  max-width: 350px;
+  align-items: center;
+  margin: 20px auto;
 }
 /* id */
 
-#logo{
-    width: 100%;
-    max-width: 350px;
-    justify-content: center;
+#logo {
+  width: 100%;
+  max-width: 350px;
+  justify-content: center;
 }
-#contact{
-    text-align: center;
-    font-size: 1.2em;
-    border: 1px black double;
-    border-radius: 60px;
-    padding: 10px;
-    margin: 20px;
-    background: lightslategray;
+#contact {
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px black double;
+  border-radius: 60px;
+  padding: 10px;
+  margin: 20px;
+  background: lightslategray;
 }
-#geekfest{
-    width: 600px;
+#geekfest {
+  width: 600px;
 }
 #event{
-    margin-left: 10%;
-    margin-right: 10%;
+  align-items: center;
 }
 /* classe */
 
-.navbar-nav{
-    text-align: center;
+.navbar-nav {
+  text-align: center;
 }
+
+
+@media screen and (min-width: 1200px) {
+    .maillot{
+    display: flex;
+    justify-content: center;
+}
+}
+
