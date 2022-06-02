@@ -60,6 +60,10 @@ img {
   text-align: center;
 }
 
+    .maillot{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (min-width: 1200px) {
     .maillot{
